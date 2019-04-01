@@ -1,0 +1,8 @@
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+pip install package_name==version (Or package_name only)
+pip uninstall package_name==version
+
+pip install -U package_name
+pip show package_name 
